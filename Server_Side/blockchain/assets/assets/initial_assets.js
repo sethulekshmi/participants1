@@ -10,7 +10,7 @@ let simple_scenario = {
 			'Clarity': 'VVS1',
 			'Polish': 'abr',
 			'Symmetry': 'LHV',
-			'JewelleryType': 'ring',
+			'Jewellerytype': 'ring',
 			'Owners': ['Kollur','soham_industrial_diamonds','Beon_Group','Shah','Ajay_Gosh','Crayon_Bros_Ltd','Adora','Adwaith']
         },
         {
@@ -22,7 +22,7 @@ let simple_scenario = {
 			'Clarity': 'VS1',
 			'Polish':'Brn_Dop',
 			'Symmetry': 'CHV',
-			'JewelleryType': 'pendant',
+			'Jewellerytype': 'pendant',
 			'Owners': ['Kollur','soham_industrial_diamonds','Beon_Group','Shah','Ajay_Gosh','Crayon_Bros_Ltd','Adora','Gaurav Singh']
         },
         {
@@ -34,7 +34,7 @@ let simple_scenario = {
 			'Clarity': 'SI1',
 			'Polish': 'scr',
 			'Symmetry': 'CV',
-			'JewelleryType': 'earrings',
+			'Jewellerytype': 'earrings',
 			'Owners': ['Kollur','soham_industrial_diamonds','Beon_Group','Shah','Ajay_Gosh','Crayon_Bros_Ltd','Adora','Adwaith']
         }
     ]
@@ -51,7 +51,7 @@ let full_scenario = {
 			'Clarity': 'VVS2',
 			'Polish': 'abr',
 			'Symmetry': 'GTV',
-			'JewelleryType': 'ring',
+			'Jewellerytype': 'ring',
 			'Owners': ['Kollur','soham_industrial_diamonds','Beon_Group','Shah','Ajay_Gosh','Crayon_Bros_Ltd','Adora','Gaurav Singh']
         },
         {
@@ -63,7 +63,7 @@ let full_scenario = {
 			'Clarity': 'I1',
 			'Polish': 'Brn_Dop',
 			'Symmetry':'LPV',
-			'JewelleryType': 'pendant',
+			'Jewellerytype': 'pendant',
 			'Owners': ['Kollur','soham_industrial_diamonds','Beon_Group','Shah','Ajay_Gosh','Crayon_Bros_Ltd','Adora','Amardev']
         },
         {
@@ -75,7 +75,7 @@ let full_scenario = {
 			'Clarity': 'VS1',
 			'Polish':'abr',
 			'Symmetry':'CHV',
-			'JewelleryType': 'earrings',
+			'Jewellerytype': 'earrings',
 			'Owners': ['Kollur','soham_industrial_diamonds','Beon_Group','Shah','Ajay_Gosh','Crayon_Bros_Ltd','Adora','Adwaith']
         },
         {
@@ -87,7 +87,7 @@ let full_scenario = {
 			'Clarity': 'VS1',
 			'Polish':'scr',
 			'Symmetry':'CHV',
-			'Jewelery_type': 'nose_pin',
+			'Jewellerytype': 'nose_pin',
 			'Owners': ['Kollur','soham_industrial_diamonds','Beon_Group','Shah','Ajay_Gosh','Crayon_Bros_Ltd','Adora','Amardev']
         },
         {
@@ -99,7 +99,7 @@ let full_scenario = {
 			'Clarity': 'VS2',
 			'Polish':'Brn_Dop',
 			'Symmetry': 'CV',
-			'JewelleryType': 'ring',
+			'Jewellerytype': 'ring',
 			'Owners': ['Kollur','soham_industrial_diamonds','Beon_Group','Shah','Ajay_Gosh','Crayon_Bros_Ltd','Adora','Adwaith']
         },
         {
@@ -111,7 +111,7 @@ let full_scenario = {
 			'Clarity': 'VVS1',
 			'Polish': 'scr',
 			'Symmetry':'GTV',
-			'JewelleryType': 'ring',
+			'Jewellerytype': 'ring',
 			'Owners': ['Kollur','soham_industrial_diamonds','Beon_Group','Shah','Ajay_Gosh','Crayon_Bros_Ltd','Adora','Gaurav Singh']
         },
         {
@@ -123,7 +123,7 @@ let full_scenario = {
 			'Clarity': 'SI1',
 			'Polish': 'abr',
 			'Symmetry':'GTV',
-			'JewelleryType': 'pendant',
+			'Jewellerytype': 'pendant',
 			'Owners': ['Kollur','soham_industrial_diamonds','Beon_Group','Shah','Ajay_Gosh','Crayon_Bros_Ltd','Adora','Gaurav Singh']
         },
         {
@@ -135,7 +135,7 @@ let full_scenario = {
 			'Clarity': 'SI2',
 			'Polish': 'Brn_Dop',
 			'Symmetry': 'LPV',
-			'Jewellery_type': "pendant",
+			'Jewellerytype': "pendant",
 			'Owners': ['Kollur','soham_industrial_diamonds','Beon_Group','Shah','Ajay_Gosh','Crayon_Bros_Ltd','Adora','Amardev']
         },
         {
@@ -147,7 +147,7 @@ let full_scenario = {
 			'Clarity': 'VS1',
 			'Polish': 'abr',
 			'Symmetry': 'CHV',
-			'JewelleryType': 'ring',
+			'Jewellerytype': 'ring',
 			'Owners': ['Kollur','soham_industrial_diamonds','Beon_Group','Shah','Ajay_Gosh','Crayon_Bros_Ltd','Adora','Adwaith']
         },
         {
@@ -159,7 +159,7 @@ let full_scenario = {
 			'Clarity': 'VVS1',
 			'Polish': 'scr',
 			'Symmetry': 'CV',
-			'JewelleryType': 'bracelet',
+			'Jewellerytype': 'bracelet',
 			'Owners': ['Kollur','soham_industrial_diamonds','Beon_Group','Shah','Ajay_Gosh','Crayon_Bros_Ltd','Adora','Gaurav Singh']
         }
     ]

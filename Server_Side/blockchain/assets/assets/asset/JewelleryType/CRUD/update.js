@@ -3,5 +3,5 @@
 let update = require(__dirname+'/../../property/update');
 
 exports.update = function(req, res, next, usersToSecurityContext) {
-    return update(req, res, next, usersToSecurityContext, 'JewelleryType');
+    return update(req, res, next, usersToSecurityContext, 'jewellerytype');
 };

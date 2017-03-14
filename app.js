@@ -194,12 +194,12 @@ app.put('/blockchain/assets/assets/:assetID/cut' , function(req,res,next)
 //-----------------------------------------------------------------------------------------------
 //    Blockchain - Assets - Assets - Asset - Date
 //-----------------------------------------------------------------------------------------------
-app.get('/blockchain/assets/assets/:assetID/Date' , function(req,res,next)
+app.get('/blockchain/assets/assets/:assetID/date' , function(req,res,next)
 {
     asset.date.read(req,res,next,usersToSecurityContext);
 });
 
-app.put('/blockchain/assets/assets/:assetID/Date' , function(req,res,next)
+app.put('/blockchain/assets/assets/:assetID/date' , function(req,res,next)
 {
 
     asset.date.update(req,res,next,usersToSecurityContext);
@@ -208,7 +208,7 @@ app.put('/blockchain/assets/assets/:assetID/Date' , function(req,res,next)
 //-----------------------------------------------------------------------------------------------
 //    Blockchain - Assets - Assets - Asset - Symmetry
 //-----------------------------------------------------------------------------------------------
-app.delete('/blockchain/assets/assets/:assetID' , function(req,res,next)
+app.get('/blockchain/assets/assets/:assetID/symmetry' , function(req,res,next)
 {
     asset.symmetry.read(req,res,next,usersToSecurityContext);
 });
@@ -220,7 +220,7 @@ app.put('/blockchain/assets/assets/:assetID/symmetry' , function(req,res,next)
 //-----------------------------------------------------------------------------------------------
 //    Blockchain - Assets - assets - asset - Timestamp
 //-----------------------------------------------------------------------------------------------
-app.delete('/blockchain/assets/assets/:assetID' , function(req,res,next)
+app.get('/blockchain/assets/assets/:assetID/timestamp' , function(req,res,next)
 {
     asset.timestamp.read(req,res,next,usersToSecurityContext);
 });
@@ -232,7 +232,7 @@ app.put('/blockchain/assets/assets/:assetID/timestamp' , function(req,res,next)
 //-----------------------------------------------------------------------------------------------
 //    Blockchain - Assets - assets - asset - Polish
 //-----------------------------------------------------------------------------------------------
-app.delete('/blockchain/assets/assets/:assetID' , function(req,res,next)
+app.get('/blockchain/assets/assets/:assetID/polish' , function(req,res,next)
 {
     asset.polish.read(req,res,next,usersToSecurityContext);
 });
@@ -245,7 +245,7 @@ app.put('/blockchain/assets/assets/:assetID/polish' , function(req,res,next)
 //-----------------------------------------------------------------------------------------------
 //    Blockchain - Assets - assets - asset - JewelleryType
 //-----------------------------------------------------------------------------------------------
-app.delete('/blockchain/assets/assets/:assetID' , function(req,res,next)
+app.get('/blockchain/assets/assets/:assetID/jewellerytype' , function(req,res,next)
 {
     asset.jewellerytype.read(req,res,next,usersToSecurityContext);
 });
